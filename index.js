@@ -13,7 +13,7 @@ client.on('ready', ()=> {
     console.log('The bot is ready');
     //guild 
     //global
-    const guildID ="867727130883653632"
+    const guildID ="***************************"
     const guild= client.guilds.cache.get(guildID)
     let commands   //handles commands for a guild
     if(guild)

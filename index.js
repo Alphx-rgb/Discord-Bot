@@ -15,7 +15,7 @@ const client= new DiscordJs.Client({
 })
 
 client.on('ready', ()=> {
-    handler=require('./command-handler')
+    handler=require('./command-handler')  //error
     if(handler.default){ //default object
         handler=handler.object 
     }
